@@ -1,6 +1,8 @@
 # Face-Detection
 
-###Face detection using Support Vector Machines on small dataset
+### Face detection using Support Vector Machines on small dataset: 
+
+The dataset used here is a custom "emotions" dataset, collected from 43 people, collecting 12 images of everyone - 6 images displaying different emotions and 6 images derived from the former by applying "sketch" filter.
 
 ## Overview - Short Description
 
