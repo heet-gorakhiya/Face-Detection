@@ -34,6 +34,8 @@ The data is located in the "data" directory in the same folder.
     1. Apply Haar-cascade on validation image
     2. Predict.
 
+
+
 ### Haar-cascade Visualization
 
 ![Haar-cascade Visualisation](https://github.com/Grimmjaw6/Face-Detection/blob/master/Haar-cascade.png)
