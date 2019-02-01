@@ -18,9 +18,9 @@ The data is located in the "data" directory in the same folder.
 
 1. Load thae data in "files" object
 2. For every entry in the object:
-  2a: Resized to 100 x 100 size 
-  2b. Convert to grayscale
-  2c. Flatten into numpy array
+  * Resized to 100 x 100 size 
+  * Convert to grayscale
+  * Flatten into numpy array
 3. The numpy arrays for each image is appended into one "NN_data.npy" file
 
 ### Main Model
@@ -31,9 +31,9 @@ The data is located in the "data" directory in the same folder.
 4. Split Train and Test data
 5. Train SVM model on Train set
 6. To test the model:
-  6a. Apply Haar-cascade on validation image
+  * Apply Haar-cascade on validation image
   ![Haar-cascade Visualisation](https://github.com/Grimmjaw6/Face-Detection/blob/master/Haar-cascade.png)
-  6b. Predict.
+  * Predict.
   
   
 ### Fine Tuning PCA features
