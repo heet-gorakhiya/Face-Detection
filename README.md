@@ -10,6 +10,8 @@ This is an attempt on solving the very well known face recognition problem in th
 
 ## Algorithm
 
+![Workflow](https://github.com/Grimmjaw6/Face-Detection/blob/master/Workflow.png)
+
 ### Pre-processing Image data 
 
 The data is located in the "data" directory in the same folder. 
@@ -28,4 +30,12 @@ The data is located in the "data" directory in the same folder.
 3. Perform PCA by specifying number of features
 4. Split Train and Test data
 5. Train SVM model on Train set
-6. Testing data on Test set
+6. To test the model:
+  6a. Apply Haar-cascade on validation image
+  ![Haar-cascade Visualisation](https://github.com/Grimmjaw6/Face-Detection/blob/master/Haar-cascade.png)
+  6b. Predict.
+  
+  
+### Fine Tuning PCA features
+
+![PCA optimum features](https://github.com/Grimmjaw6/Face-Detection/blob/master/PCA_optimum_features.png)
