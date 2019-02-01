@@ -32,10 +32,13 @@ The data is located in the "data" directory in the same folder.
 5. Train SVM model on Train set
 6. To test the model:
     1. Apply Haar-cascade on validation image
-    ![Haar-cascade Visualisation](https://github.com/Grimmjaw6/Face-Detection/blob/master/Haar-cascade.png)
     2. Predict.
-  
-  
+
+### Haar-cascade Visualization
+
+![Haar-cascade Visualisation](https://github.com/Grimmjaw6/Face-Detection/blob/master/Haar-cascade.png)
+
+
 ### Fine Tuning PCA features
 
 ![PCA optimum features](https://github.com/Grimmjaw6/Face-Detection/blob/master/PCA_optimum_features.png)
